@@ -1,3 +1,8 @@
+// Define the unsorted list
+$list_to_sort: (5, 2, 8, 1, 7);
+
+// Sort the list
 $sorted_list: sort($list_to_sort);
 
-@debug $sorted_list;
+// Print the sorted list in the debug output
+@debug "Sorted List: #{$sorted_list}";
